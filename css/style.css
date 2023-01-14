@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+/* common style */
+:root{
+    --primary-color:#131313;
+    --secondry-color: #727272;
+    --btn-primary:#FF900E;
+    --text-color: #ffffff;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/*************************
+header section style start 
+**************************/
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.header__titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.menu_item{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-top: 23px;
+}
+/*************************
+header section style start 
+**************************/
+
+/*************************
+Brand New section style start 
+**************************/
+.brand_new{
+    text-align: center;
+}
+.brand__titel{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-color);
+}
+.brand__description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 25px 5px;
+}
+.btn__primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--text-color);
+    border: none;
+    padding: 20px 24px;
+    background-color: var(--btn-primary);
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/*************************
+Brand New section style end 
+**************************/
+
+/******************************
+banner images section style end 
+*******************************/
+.banner__img__part{
+    padding-bottom: 45px;
+}
+.banner__img__part img{
+    Width:100%;
+}
+/********************************
+banner images section style end 
+*********************************/
+
+/*********************************************
+Quick list of Our Features section style start 
+**********************************************/
+.our__feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.quick_img_part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.quick_img_part .quick_img > img{
+    width: 100%;
+    height: 342px;
+}
+.quick__content{
+    margin-left: 73px;
+}
+.titel__part{
+    padding-bottom: 24px;
+}
+.quick{
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--secondry-color);
+}
+.our{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.feature{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--btn-primary);
+}
+.quick__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding-bottom: 32px;
+}
+/*********************************************
+Quick list of Our Features section style end 
+**********************************************/
+
+/*********************************************
+Features you will love & enjoy section start 
+**********************************************/
+.feature_enjoy{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.feature__enjoy__content{
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.feature__titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-bottom: 24px;
+    border-left: 3px solid var(--btn-primary);
+    padding-left: 5px;
+}
+.feature__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+.feature__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 586px;
+    height: 744px;
+    padding-top: 30px;
+}
+.common_content{
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+.commom__titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.common__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 10px 0;
+}
+.feature__img img{
+    width: 708px;
+    height: 982px;
+}
+.love__enjoy__section{
+    position: relative;
+}
+.year__exprience{
+    width: 330px;
+    height: 160px;
+    border-radius: 8px;
+    background-color: var(--btn-primary);
+    position: absolute;
+    left: 649px;
+    bottom: -91px;
+}
+.year__content{
+    padding: 40px 42px;
+    color: var(--text-color);
+    text-align: center;
+}
+.year{
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--text-color);
+}
+.experience{
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--text-color);
+}
+/*********************************************
+Features you will love & enjoy section end 
+**********************************************/
+
+/*********************************************
+Some Facts section start 
+**********************************************/
+.some_fact_section{
+    padding: 30px 10px;
+}
+.some_titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-bottom: 24px;
+}
+.some_discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+/*********************************************
+Some Facts section end
+**********************************************/
+
