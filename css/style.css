@@ -251,3 +251,35 @@ Some Facts section start
 Some Facts section end
 **********************************************/
 
+/**********************
+Awards section start
+*********************/
+.awards_section{
+    padding: 50px 10px;
+}
+.awards_parts{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.awards{
+    width: 241.83px;
+    height: 241.83px;
+    border: 2px solid var(--btn-primary);
+    padding: 45px 35px;
+}
+.awards:hover{}
+.awrds__nmbr{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--secondry-color);
+    padding-bottom: 5px;
+}
+.awards_discrip{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--secondry-color);
+}
+/**********************
+Awards section end
+*********************/
