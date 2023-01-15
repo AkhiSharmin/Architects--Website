@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans';
-    box-sizing: border-box;
 }
 /* common style */
 :root{
@@ -12,6 +11,7 @@
     --btn-primary:#FF900E;
     --text-color: #ffffff;
 }
+
 .container{
     width: 100%;
     max-width: 1250px;
@@ -176,12 +176,14 @@ Features you will love & enjoy section start
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 586px;
+    max-width: 586px;
+    width: 100%;
     height: 744px;
     padding-top: 30px;
 }
 .common_content{
-    width: 586px;
+    max-width: 586px;
+    width: 100%;
     height: 171px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
@@ -200,21 +202,24 @@ Features you will love & enjoy section start
     padding: 10px 0;
 }
 .feature__img img{
-    width: 708px;
+    max-width: 708px;
+    width: 100%;
     height: 982px;
 }
 .love__enjoy__section{
     position: relative;
 }
-.year__exprience{
+.year__exprience {
     width: 330px;
     height: 160px;
     border-radius: 8px;
     background-color: var(--btn-primary);
     position: absolute;
-    left: 649px;
-    bottom: -91px;
+    margin-top: -78px;
+    z-index: 9;
+    margin-left: -40px;
 }
+
 .year__content{
     padding: 40px 42px;
     color: var(--text-color);
@@ -379,16 +384,21 @@ Our Sponsors section style end
     height: 100px;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .footer_text{
     font-weight: 400;
     font-size: 20px;
     color: var(--primary-color);
-    padding: 38px 50px;
+    padding: 15px 50px;
 }
 /*******************************
 /* footer section style end
 *******************************/
+
+.hide{
+    display: none;
+}
 
 
 /* media Quires start */
@@ -399,7 +409,6 @@ Our Sponsors section style end
 @media only screen and  (max-width:578px){
     .container{
         width: 100%;
-        overflow: hidden;
     }
     .header__section{
         text-align: center;
@@ -430,9 +439,9 @@ Our Sponsors section style end
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
-    .common__discription{
+    /* .common__discription{
         width: 400px;
-    }
+    } */
     .quick_img_part{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -456,7 +465,6 @@ Our Sponsors section style end
     }
     .feature__img img{
         margin-top: 15px;
-        width: 100%;
     }
     .year__exprience{
         width: 330px;
@@ -492,7 +500,6 @@ Tablet View
 @media only screen and  (min-width:577px) and (max-width:768px){
     .container{
         width: 100%;
-        overflow: hidden;
     }
     .header__section{
         text-align: center;
@@ -595,7 +602,6 @@ Tablet View
         padding: 5px 10px;
     }
     .feature__img img{
-        margin-top: 15px;
         width: 100%;
     }
     .year__exprience{
