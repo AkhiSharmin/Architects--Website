@@ -267,8 +267,12 @@ Awards section start
     height: 241.83px;
     border: 2px solid var(--btn-primary);
     padding: 45px 35px;
+    transition: all 1s ease-in-out;
 }
-.awards:hover{}
+.awards:hover{
+    transform: rotate(360deg);
+    background-color: var(--btn-primary);
+}
 .awrds__nmbr{
     font-weight: 600;
     font-size: 45px;
@@ -281,5 +285,108 @@ Awards section start
     color: var(--secondry-color);
 }
 /**********************
-Awards section end
+Awards section style end
 *********************/
+
+/*************************************
+our meeting  photo section style start
+*******************************/
+.our__meeting_titel{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 50px 10px;
+}
+.meeting__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 25px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+.meeting_text{
+    height: 423px;
+    background-color: var(--text-color);
+    filter: drop-shadow(0px 7.34229px 6.3557px rgba(0, 0, 0, 5.05));
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, red, rgba(0, 0, 0, 0) ) 1 100%;
+}
+.meeting__img img{
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+}
+.meeting__titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 10px 10px;
+}
+.meeting__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+/************************************
+our meeting  photo section style end
+************************************/
+
+/********************************
+Our Sponsors section style start
+*******************************/
+.sponsore__content{
+    text-align: center;
+}
+.sponser_titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-top: 70px;
+}
+.sponser_discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 24px 5px;
+    margin-bottom: 50px;
+}
+.sponser_logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+/******************************
+Our Sponsors section style end
+*******************************/
+
+/*******************************
+/* footer section style start */
+/*******************************/
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footer_text{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 38px 50px;
+}
+/*******************************
+/* footer section style end
+*******************************/
